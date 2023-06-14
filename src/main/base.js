@@ -2,12 +2,12 @@ const path = require("path");
 const package = require("../../package.json");
 
 
-// BetterQQNT的数据目录
-let BETTERQQNT_PROFILE = process.env["BETTERQQNT_PROFILE"];
+// BetterQQNT小程序的数据目录
+let BETTERQQNT_PROFILE = process.env["BETTERQQMINI_PROFILE"];
 if (!BETTERQQNT_PROFILE) {
     BETTERQQNT_PROFILE = (process.platform === "win32")
-        ? "C:\\BetterQQNT"
-        : "~/Documents/BetterQQNT";
+        ? "C:\\BetterQQMini"
+        : "~/Documents/BetterQQMini";
 }
 
 
@@ -32,7 +32,7 @@ const betterQQNT = {
 
 
 function output(...args) {
-    console.log("\x1b[32m%s\x1b[0m", "BetterQQNT:", ...args);
+    console.log("\x1b[32m%s\x1b[0m", "BetterQQMini:", ...args);
 }
 
 
