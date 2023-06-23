@@ -77,7 +77,9 @@ my-plugin
 ```
 
 
-## 开源协议
+## 开源协议及免责
 
 [MIT License](./LICENSE)  
-Copyright (c) 2023 沫烬染 & XiaoHe321
+Copyright (c) 2023 沫烬染 forked by XiaoHe321
+
+禁止用于任何非法用途，插件开发属学习与研究目的，仅自用，未提供给任何第三方使用。任何不当使用导致的任何侵权问题责任自负。
