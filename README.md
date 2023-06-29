@@ -19,11 +19,20 @@ BetterQQMini是一个QQNT的小程序插件加载器（基于[BetterQQNT](https:
 
 只需三步，就可以轻松安装BetterQQMini：
 
-1. 克隆/下载本项目，并将其放到`QQNT小程序的根目录/resources/app`下。
+1. 在`QQNT小程序的根目录/resources/app`下克隆本项目，或者下载项目ZIP并解压到`QQNT小程序的根目录/resources/app`下（需要保留BetterQQMini文件夹，并使其与`package.json`同级）。
 
-   （小程序根目录通常位于`文档\Tencent Files\nt_qq\global\nt_data\MiniApp\2.9.7`，最后一个版本号视情况而定）
+   完成后，`QQNT小程序的根目录/resources/app`下的文件夹结构应为：
 
-2. 编辑`package.json`文件，将`main`键值改为`./BetterQQMini/src/index.js`（大小写不敏感，请根据项目目录名实际情况修改）。
+   ```
+   ├─plugins
+   ├─BetterQQMini <--在这
+   │  └─...
+   ├─2.9.7.asar
+   └─package.json
+   ```
+   （小程序根目录通常位于`文档\Tencent Files\nt_qq\global\nt_data\MiniApp\2.9.7`，最后一个版本号视情况而定。若不存在这个文件夹或者里面为空，说明你没打开过任何小程序，你需要先随便打开一个小程序，下载好小程序资源后再继续安装`BetterQQMini`）
+
+2. 编辑`package.json`文件，将`main`键值改为`BetterQQMini文件夹`下的`src/index.js`（大小写不敏感，请根据项目目录名实际情况修改），例如：`./BetterQQMini/src/index.js`。
 
 3. 直接点开NTQQ上的小程序，享受BetterQQMini带来的乐趣吧！
 
