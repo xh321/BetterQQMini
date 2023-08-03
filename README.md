@@ -2,7 +2,7 @@
 
 # BetterQQMini
 
-BetterQQMini是一个QQNT的小程序插件加载器（基于[BetterQQNT](https://github.com/mo-jinran/BetterQQNT)修改而来）  
+BetterQQMini是一个QQNT的小程序插件加载器（基于[LiteLoaderQQNT](https://github.com/mo-jinran/LiteLoaderQQNT)修改而来）  
 它可以让你自由地为QQNT小程序添加各种插件  
 比如：美化主题，增加新功能 等...
 
