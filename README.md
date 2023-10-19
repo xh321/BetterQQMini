@@ -1,5 +1,4 @@
-# 鉴于QQNT小程序修改的需求很低，本仓库将不再更新（并不会适配最新版PC端QQ小程序）。若有需求，请开 `ISSUE` 。
-
+# 鉴于QQNT小程序修改的需求很低，本仓库将不再更新（并不会适配最新版PC端QQ小程序）。
 # BetterQQMini
 
 BetterQQMini是一个QQNT的小程序插件加载器（基于[LiteLoaderQQNT](https://github.com/mo-jinran/LiteLoaderQQNT)修改而来）  
